@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/pschatzmann/esp/esp32-a2dp/build/CMakeFiles/bootloader
+/Users/pschatzmann/esp/esp32-a2dp/build/CMakeFiles/bootloader.rule
+/Users/pschatzmann/esp/esp32-a2dp/build/CMakeFiles/bootloader-complete.rule
+/Users/pschatzmann/esp/esp32-a2dp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/pschatzmann/esp/esp32-a2dp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/pschatzmann/esp/esp32-a2dp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/pschatzmann/esp/esp32-a2dp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/pschatzmann/esp/esp32-a2dp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/pschatzmann/esp/esp32-a2dp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/pschatzmann/esp/esp32-a2dp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
