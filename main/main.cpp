@@ -15,7 +15,7 @@ void loop(){
 
 #if !defined(CONFIG_AUTOSTART_ARDUINO) || !CONFIG_AUTOSTART_ARDUINO
 extern "C" void app_main(void){
-#if !CONFIG_AUTOSTART_ARDUINO
+#if !CONFIG_AUTOSTART_ARDUINO && defined(ARDUINO)
   initArduino();
 #endif
   setup();
