@@ -8,6 +8,11 @@ Install with
 
     git clone --recurse-submodules https://github.com/pschatzmann/example-idf-a2dp
 
+Source IDF e.g. 
+    
+    source /home/pschatzmann/.espressif/v5.5.4/esp-idf/export.sh
+    source /home/pschatzmann/.espressif/v6.0.1/esp-idf/export.sh
+    source /home/pschatzmann/.espressif/v6.0.2/esp-idf/export.sh
 
 Build with
  
