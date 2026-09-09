@@ -6,7 +6,7 @@ It has been tested with the IDF v.6.0.1
  
 Install with
 
-    git clone --recurse-submodules https://github.com/pschatzmann/example-idf-a2dp
+    git clone --recurse-submodules https://github.com/pschatzmann/idf-example-a2dp
 
 Source IDF e.g. 
     
