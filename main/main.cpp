@@ -2,13 +2,13 @@
 #include "AudioTools.h"
 #include "BluetoothA2DPSink.h"
 
-// AAC decode (via arduino-libhelix) needs the Bluedroid multi-SEP /
+// AAC decode (via codec-helix) needs the Bluedroid multi-SEP /
 // external-codec support that only landed in idf v6.2 - see
 // components/ESP32-A2DP/examples/bt_music_receiver_codec for more details
 // and the required sdkconfig options (CONFIG_BT_A2DP_USE_EXTERNAL_CODEC,
 // CONFIG_BT_A2DP_CODEC_AAC_ENABLED, CONFIG_BT_A2DP_SEP_NUM_MAX). Registering
 // any decoder via add_decoder() replaces the built-in SBC decode path
-// entirely, so SBC (via arduino-libsbc) is registered alongside AAC to keep
+// entirely, so SBC (via codec-sbc) is registered alongside AAC to keep
 // working with sources that don't support AAC.
 #define A2DP_CODEC_SUPPORTED (ESP_IDF_VERSION >= ESP_IDF_VERSION_VAL(6, 2, 0))
 
