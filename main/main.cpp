@@ -1,5 +1,6 @@
 
 #include "AudioTools.h"
+#include "AudioTools/AudioLibs/AudioBoardStream.h"
 #include "BluetoothA2DPSink.h"
 
 // AAC decode (via codec-helix) needs the Bluedroid multi-SEP /
@@ -19,7 +20,8 @@
 #include "A2DPDecoderAAC.h"
 #endif
 
-I2SStream i2s;
+//I2SStream i2s;
+AudioBoardStream i2s(AudioKitEs8388V1); // Access I2S as stream
 BluetoothA2DPSink a2dp_sink(i2s);
 
 #if A2DP_CODEC_SUPPORTED
